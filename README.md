@@ -8,3 +8,5 @@ It took around 10 hours to complete.
 
 * Adding the order from the form into an object.
 * Adding table data based on data passed from object from the local host.
+
+[Crazy Meal link](https://ahmad-hajrachid.github.io/crazy-meal/)
