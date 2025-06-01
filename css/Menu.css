@@ -5,7 +5,13 @@
     
 }
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    width: auto;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 0 50px;
 }
 
 body{
@@ -21,9 +27,8 @@ html  {
 }
 
 main{
-    height: 100%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,8 +44,7 @@ main{
 
 
 header {
-background-color: rgba(77, 77, 77,0.96); 
-padding-bottom: 1rem;   
+background-color: rgba(77, 77, 77,0.96);  
 padding-top: 1rem;   
 }
 
