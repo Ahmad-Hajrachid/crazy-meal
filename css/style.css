@@ -36,10 +36,18 @@ main{
     width: 300px;
 }
 
+header h1 {
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    width: auto;
+    text-align: center;
+    box-shadow: 0 0 50px;
+}
+
 
 header {
-background-color: rgba(77, 77, 77,0.96); 
-padding-bottom: 1rem;   
+background-color: rgba(77, 77, 77,0.96);  
 padding-top: 1rem;   
 }
 
@@ -117,8 +125,18 @@ footer {
     width: 100%;
     color: white;
     text-align: center;
-    padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+footer h1 {
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    width: auto;
+    text-align: center;
+    box-shadow: 0 0 50px;
+    height: 10px;
+    margin-bottom: 1rem;
 }
 
 #table-container {

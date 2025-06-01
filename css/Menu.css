@@ -9,7 +9,6 @@ h1 {
     background-color: black;
     color: white;
     width: auto;
-    border-radius: 1rem;
     text-align: center;
     box-shadow: 0 0 50px;
 }
@@ -111,8 +110,18 @@ footer {
     width: 100%;
     color: white;
     text-align: center;
-    padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+footer h1 {
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    width: auto;
+    text-align: center;
+    box-shadow: 0 0 50px;
+    height: 10px;
+    margin-bottom: 1rem;
 }
 
 .card {
