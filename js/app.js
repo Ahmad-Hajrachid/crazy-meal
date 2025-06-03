@@ -41,11 +41,11 @@ function CreateOrder(name,price,image){
 }
 
 function setLocalStorage() {
-  localStorage.setItem("table-content", JSON.stringify(orders));
+  localStorage.setItem("orders", JSON.stringify(orders));
 }
 
 function getLocalStorage(){
-  const orderlist = localStorage.getItem("table-content")
+  const orderlist = localStorage.getItem("orders")
 
   if(orderlist){
   orders = JSON.parse(orderlist);
@@ -57,7 +57,7 @@ function getLocalStorage(){
 }
 
 function clearLocalStorage(){
-    localStorage.removeItem("table-content")
+    localStorage.removeItem("orders")
     orders=[];
     tableContent.innerHTML =`
                 <tr>

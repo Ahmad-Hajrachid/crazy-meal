@@ -108,11 +108,14 @@ li a:hover{
     color: white;
     max-width: 33.3%;
     width: 32%;
-    padding: 3rem;
+    padding: 5rem;
     margin-bottom: 4rem;
     border-radius: 2rem;
 }
 
+#form-container h1{
+    margin-bottom: 3rem;
+}
 
 
 input {
@@ -154,6 +157,7 @@ form {
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+    
     
 }
 button {
@@ -226,7 +230,7 @@ td img {
     width: 300px;
 }
 
-@media(max-width:660px){
+@media(max-width:685px){
 
 #form-container {
     padding: 5rem;
@@ -245,8 +249,8 @@ td img {
 }
 
 input {
-    border-radius: 0px;
-    padding: 0px;
+    border-radius: 8px;
+    padding: 1rem;
 }
 
 
@@ -281,7 +285,7 @@ body{
 }
 }
 
-@media(max-width:980px){
+@media(max-width:1020px){
     #form-container h1 {
     font-size: 2rem;
 }
